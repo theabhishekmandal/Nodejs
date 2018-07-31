@@ -1,0 +1,13 @@
+Event : Something that has happened in our app that we can respond to.
+
+In node we have two kinds of events.
+    1 - System Events that comes from c++ core (libuv library file) 
+        Eg: such as receiving a file, recieving data from internet, opening a file
+    
+    2 - Custom Events that comes from Javascript core (Event Emitter Javascript file)
+
+    libuv sends the lower level System events to event emitter.
+    When there is any event occurs, libuv sends this to custom events so that we can manage it properly
+
+    Javascript itself does not have any Eventing concept. But, we can create our own event library
+    with the technique that the node event emitter uses

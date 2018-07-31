@@ -1,0 +1,14 @@
+var a;
+var b = 'hei';
+var c = 21.333;
+var d = 1e9;
+var e = 10;
+var f = 0x34;
+var g = { firstname : 'abhishek', lastname : 'mandal'};
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
+console.log(typeof f);
+console.log(typeof g);
