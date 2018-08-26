@@ -9,7 +9,7 @@ console.log(multiply(10 , 14));
 // This is the way to declare a function expression
 var x = function (a, b) {
     return a * b;
-}
+};
 
 console.log(x(10, 10));
 

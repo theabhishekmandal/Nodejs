@@ -22,7 +22,7 @@ var add_new = (function(){
     return function(){
         count += 1;
         return  count;
-    }
+    };
 }());
 
 console.log(add_new());
